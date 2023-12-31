@@ -1,0 +1,22 @@
+eureka:
+ client:
+  register-with-eureka : true
+  fetch-registry : true
+  service-url:
+   defaultZone: http://localhost:8091/eureka/
+ instance:
+  hostname: localhost
+  
+  
+  
+cache:
+ type: redis
+ cache-names:
+  - cache1
+  - cache2
+ redis:
+  cache-null-values: true
+  
+redis:
+ host: localhost
+ port: 6379
