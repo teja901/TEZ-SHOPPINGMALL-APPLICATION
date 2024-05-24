@@ -31,7 +31,7 @@ import com.crud.Repository.CustomerRepo;
 import com.crud.Repository.OrderRepository;
 
 @RestController
-@RequestMapping("/customerLogin")
+@RequestMapping("/customerLogins")
 public class Controller {
 
 	@Autowired
